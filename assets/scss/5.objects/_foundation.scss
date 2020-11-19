@@ -1,0 +1,31 @@
+/* postcss-sorting: off */
+
+/*
+ * Add foundation grid base
+ */
+
+@include foundation-flex-grid;
+@include foundation-flex-classes;
+
+/*
+ * Add text alignment classes
+ *
+ * @example .text-center
+ */
+@include foundation-text-alignment;
+
+/*
+ * Add visibility classes
+ *
+ * @example .hide-for-medium
+ */
+@include foundation-visibility-classes;
+
+/*
+ *  Add responsive video classes
+ *
+ * @example .flex-video
+ */
+@include foundation-responsive-embed;
+
+/* postcss-sorting: on */

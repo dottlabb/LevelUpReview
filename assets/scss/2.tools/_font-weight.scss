@@ -1,0 +1,26 @@
+/*
+ * Font-weight mixin
+ *
+ * @description this mixin handles all the different font-weights.
+ *
+ * @example: @include font-weight(regular) or @include font-weight(bold)
+ */
+@mixin font-weight($size: default) {
+	font-weight: map-get($font-weight, $size);
+}
+
+/*
+ * Font-weight-classes mixin
+ *
+ * @description this mixin adds classes for all the different font-weight
+ *
+ * @example: .font-weight-regular or .font-weight-bold
+ */
+
+@mixin font-weight-classes() {
+	@each $weight, $value in $font-weight {
+		.font-weight-#{$weight} {
+			@include font-weight($weight);
+		}
+	}
+}
