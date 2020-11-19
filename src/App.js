@@ -10,15 +10,15 @@ class App extends Component {
         this.state = {
             reviews: [
                 {
-                    rating: 3,
-                    name: 'Danny van Holten',
-                    review: 'Curabitur blandit mollis lacus. Curabitur suscipit suscipit tellus. Phasellus tempus.\n\n Quisque rutrum. Nulla sit amet est. Sed mollis, eros et ultrices tempus, mauris ipsum aliquam libero, non adipiscing dolor urna a orci.',
+                    rating: 5,
+                    name: 'Danny Holt',
+                    review: 'This assignment was really fun.',
                     date: new Date(new Date().setDate(new Date().getDate() - 10))
                 },
                 {
-                    rating: 4,
-                    name: 'Max Verstappen',
-                    review: 'Curabitur blandit mollis lacus. Curabitur suscipit suscipit tellus. Phasellus tempus.\n\n Quisque rutrum. Nulla sit amet est. Sed mollis, eros et ultrices tempus, mauris ipsum aliquam libero, non adipiscing dolor urna a orci.',
+                    rating: 1,
+                    name: 'Marie Currie',
+                    review: 'This assignment was very confusing and was not fun.',
                     date: new Date()
                 }
             ],
